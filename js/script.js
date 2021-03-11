@@ -158,6 +158,13 @@ $(document).ready(function () {
       });
   });
 
+  $("#btnReset").click(function (r) {
+    r.preventDefault();
+
+    location.reload();
+
+  });
+
   //Generator Group JS
 
   $("#generatorTable").hide();
