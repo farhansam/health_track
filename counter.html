@@ -72,8 +72,20 @@
         </div>
         <!--Counter-->
         <div class="col-md-6 col-margins">
+          <h2>Calorie intake setting</h2>
+          <form>
+            <div class="row mb-3">
+              <label for="inputCal" class="col-sm-4 col-form-label"
+                >Calorie Target</label
+              >
+              <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputCal" />
+              </div>
+            </div>
+            <button class="btn btn-primary" id="btnSet">Set</button>
+          </form>
+          <div class="filler"></div>
           <h2>What did you consume today?</h2>
-          <div class="filler-small"></div>
           <form>
             <div class="row mb-3">
               <label for="inputFood" class="col-sm-4 col-form-label"
@@ -143,7 +155,6 @@
                 </div>
               </div>
             </fieldset>
-            <div class="filler"></div>
             <button class="btn btn-primary" id="btnAdd">Add</button>
           </form>
         </div>
