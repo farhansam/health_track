@@ -73,12 +73,10 @@ $(document).ready(function () {
   });
 
   //Counter Group JS
-  $("#counterTable").hide();
-  $("#counterCalculation").hide();
+  //$("#counterTable").hide();
+  //$("#counterCalculation").hide();
 
   totalCal = 0;
-  var calList = [];
-  count = 0;
   sumCal = 0;
 
   $("#btnSet").click(function (s) {
@@ -86,7 +84,15 @@ $(document).ready(function () {
 
     $("#counterCalculation").show();
 
-    
+    inputTargetCal = $("#inputTargetCal").val();
+
+    if (inputTargetCal == "" || inputTargetCal.match(numbers)) {
+      alert(
+        "One or more of the input fields are empty or undefined. Please ensure all fields are filled."
+      );
+    } else { 
+      $("#userCal").html(inputTargetCal);
+    }
   });
 
   $("#btnAdd").click(function (e) {
@@ -121,11 +127,12 @@ $(document).ready(function () {
         inputCal = data.items[0].calories;
         cal = (inputCal / 100) * inputServing;
         totalCal = totalCal + cal;
-        calList.push(cal);
+        remainingCal = inputTargetCal - totalCal;
 
         console.log("Base calories: " + inputCal);
         console.log("Calculated calories: " + cal);
         console.log("Accumulated calories: " + totalCal);
+        console.log("Remaining calories: " + remainingCal);
 
         if (inputServing == "" || inputServing.match(numbers)) {
           alert(
@@ -138,20 +145,12 @@ $(document).ready(function () {
               <td>${inputFood}</td>
               <td>${inputServing}</td>
               <td>${cal}</td>
-              <td class="removeRow" id="${count}"><button type="button" class="btn btn-outline-primary">Remove</button></td>
              </tr>`
           );
         }
-        console.log(count);
-        count += 1;
-        console.log(calList);
-        console.log(count);
-        $("#sumCal").html(totalCal);
+        $("#sumCal").html(totalCal.toFixed(1));
+        $("#remainingCal").html(remainingCal.toFixed(1));
 
-        $(".removeRow").click(function () {
-          $(this).parent().remove();
-          $("#totalCalories").hide();
-        });
       })
       .catch(function (error) {
         console.error(error);
