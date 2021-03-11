@@ -26,6 +26,13 @@ Health Track is an interactive website targeted towards users who are health-con
 # 3. Demo
 
 # 4. Adopted Technology
+* HTML/CSS
+* Bootstrap v4.1.x
+* Javascript/jquery
+* Postman & RapidAPI (for APIs)
+* Stackoverflow
+* Canva
+* Github
 
 # 5. User Stories
 
@@ -38,6 +45,15 @@ Health Track is an interactive website targeted towards users who are health-con
 # 8. Testing
 1. test navbar links
 2. test main group links
+3. 
+4. Bug testing
+All HTML, CSS and Javascript files were passed through W3C Nu HTML, Jigsaw CSS and JSHint validators respectively. Files were uploaded to the validators and all errors were fixed. APIs were also tested on postman before being deployed.
+
+![](images/html_check1.png)
+![](images/html_check2.png)
+![](images/css_check.png)
+![](images/js_check.png)
+![](images/postman_check.png)
 
 # 9. Deployment
 
