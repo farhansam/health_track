@@ -16,6 +16,8 @@ $(document).ready(function () {
     userGender = $(".inputGender:checked").val();
     userLifestyle = $("#inputLifestyle option:selected").val();
     bmi = userWeight / (userHeight / 100) ** 2;
+    lowerWeight = 18.5 * (userHeight / 100) ** 2;
+    higherWeight = 24.9 * (userHeight / 100) ** 2;
 
     if (
       userHeight < 1 ||
@@ -64,6 +66,8 @@ $(document).ready(function () {
 
     $("#bmiResult").html(bmi.toFixed(1));
     $("#bmiCat").html(bmiRange());
+    $("#lowerWeight").html(lowerWeight.toFixed(1));
+    $("#higherWeight").html(higherWeight.toFixed(1));
     $("#calRec").html(calorieCalculator().toFixed(1));
     $("#calculatorResultGroup").show();
   });

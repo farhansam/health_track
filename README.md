@@ -48,6 +48,7 @@ The target audience for the website are health-conscious individuals who are int
 # 6. Development
 1. UI screenshots of website
 2. UX js section
+3. Input and output did not fit user stories
 
 # 7. Implementation
 
