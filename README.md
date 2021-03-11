@@ -58,7 +58,6 @@ Wireframe for respective webpages:
    ![](images/wireframe_meal_generator.png)
 
 5. UX js section
-6. Input and output did not fit user stories
 
 # 7. Implementation
 Screenshot of actual webpages:
@@ -78,8 +77,9 @@ Screenshot of actual webpages:
 3. test bmi/bmr formula
 4. test input validation
 5. test api
-6. test dynamic interactivity
-7. Bug testing
+6. test dynamic interactivity (tabulation of api endpoints)
+7. test responsiveness
+8. Bug testing
 All HTML, CSS and Javascript files were passed through W3C Nu HTML, Jigsaw CSS and JSHint validators respectively. Files were uploaded to the validators and all errors were fixed. APIs were also tested on postman before being deployed.
 
 ![](images/html_check1.png)
