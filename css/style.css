@@ -30,6 +30,27 @@
     text-align: center;
 }
 
+.card-link a:hover {
+    text-decoration: none;
+}
+
+.filler {
+    height: 100px;
+}
+
+.filler-small {
+    height: 50px;
+}
+
+.search {
+    width: 400px;
+}
+
+#test {
+    height: 100px;
+}
+
+
 .footer {
     margin-top: 100px;
     width: 100vw;
