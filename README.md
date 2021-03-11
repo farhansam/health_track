@@ -35,6 +35,15 @@ Health Track is an interactive website targeted towards users who are health-con
 * Github
 
 # 5. User Stories
+The target audience for the website are health-conscious individuals who are interested to monitor their current state of general health and their calorie intake. Some of the user stories are:
+
+1. I want to know my BMI to gauge whether I am in the healthy range or not
+2. I want to know my recommended calorie intake in order to gain/maintain/lose weight
+3. I want to know how many calories I have consumed today
+4. I want to know if I exceeded my recommended calorie intake for the day
+5. I want a recommendation of dishes that I can eat based on my recommended calorie intake
+6. I want to know how the dishes look like
+7. I want to know the recipe for these dishes
 
 # 6. Development
 1. UI screenshots of website
@@ -45,8 +54,11 @@ Health Track is an interactive website targeted towards users who are health-con
 # 8. Testing
 1. test navbar links
 2. test main group links
-3. 
-4. Bug testing
+3. test bmi/bmr formula
+4. test input validation
+5. test api
+6. test dynamic interactivity
+7. Bug testing
 All HTML, CSS and Javascript files were passed through W3C Nu HTML, Jigsaw CSS and JSHint validators respectively. Files were uploaded to the validators and all errors were fixed. APIs were also tested on postman before being deployed.
 
 ![](images/html_check1.png)
