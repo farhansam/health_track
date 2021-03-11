@@ -29,3 +29,17 @@
 .centre {
     text-align: center;
 }
+
+.footer {
+    margin-top: 100px;
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(147,164,180);
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.footer-text {
+    margin-top: 5px;
+}
