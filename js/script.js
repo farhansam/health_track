@@ -74,11 +74,20 @@ $(document).ready(function () {
 
   //Counter Group JS
   $("#counterTable").hide();
+  $("#counterCalculation").hide();
 
   totalCal = 0;
   var calList = [];
   count = 0;
   sumCal = 0;
+
+  $("#btnSet").click(function (s) {
+    s.preventDefault();
+
+    $("#counterCalculation").show();
+
+    
+  });
 
   $("#btnAdd").click(function (e) {
     e.preventDefault();
