@@ -1,0 +1,31 @@
+.navbar-custom {
+    background-color: rgb(147,164,180);
+}
+
+.banner {
+    text-align: center;
+    margin: 5vw;
+    margin-bottom: 5em;
+}
+
+.holder {
+    background-color: rgb(232,234,239);
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 100vw;
+}
+
+.col-margins {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.container-custom{
+    background-color: rgb(232,234,239);
+    padding: 35px;
+}
+
+.centre {
+    text-align: center;
+}
