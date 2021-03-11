@@ -1,7 +1,7 @@
 # Interactive Front-End Development - Milestone Project 2
 
 ![health-track logo](images/health_track_logo.png) 
-### Website to monitor an individual's health and diet
+### A website to monitor an individual's health and diet
 
 # Table of Contents
 1. Background
@@ -24,6 +24,7 @@ Health Track is an interactive website targeted towards users who are health-con
 * To assist health-conscious users who need to monitor their calorie intake.
 
 # 3. Demo
+View the end product: [Health Track](https://farhansam.github.io/health_track/)
 
 # 4. Adopted Technology
 * HTML/CSS
