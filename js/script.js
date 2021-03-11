@@ -61,3 +61,9 @@ $(document).ready(function () {
       $("#calRec").html(calorieCalculator().toFixed(1));
       $("#calculatorResultGroup").show();
     });
+  
+    
+    //End test
+    console.log("All OK");
+  });
+  
