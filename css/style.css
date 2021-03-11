@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Nunito', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap) ;
+}
+
+p, div {
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+}
+
+h1, h2, h3, h4, h4, h6 {
+    font-family: 'Nunito', sans-serif;
+}
+
+.disclaimer {
+    color: maroon;
+}
+
 .navbar-custom {
     background-color: rgb(147,164,180);
 }
@@ -32,6 +50,10 @@
 
 .card-link a:hover {
     text-decoration: none;
+}
+
+.card-body {
+    color: navy;
 }
 
 .filler {

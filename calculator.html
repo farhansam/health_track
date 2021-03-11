@@ -10,6 +10,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
     <title>Health-Track</title>
   </head>
 
@@ -172,11 +174,12 @@
 
     <!--Calculator Result Group-->
     <div class="container container-custom" id="calculatorResultGroup">
-      <h2>Your BMI is <span id="bmiResult"></span></h2>
-      <h4>You are in the <span id="bmiCat"></span> category</h4>
-      <h4>Your ideal weight range is between <span id="lowerWeight"></span>kg to <span id="higherWeight"></span>kg</h4>
-      <h4>Recommended daily calories to maintain current weight: <span id="calRec"></span> kcal</h4>
-      <div>Disclaimer: Do speak to a doctor or weight loss professional before adjusting your daily calorie intake to achieve your target weight</div>
+      <h2>Your BMI is <b><span id="bmiResult"></span></b></h2>
+      <h4>You are in the <b><span id="bmiCat"></span></b> category</h4>
+      <h4>Your ideal weight range is between <b><span id="lowerWeight"></span>kg to <span id="higherWeight"></span>kg</b></h4>
+      <h4>The recommended daily calories to maintain your current weight is <b><span id="calRec"></span> kcal</b></h4>
+      <div class="filler-small"></div>
+      <div class="disclaimer">(Disclaimer: Do speak to a doctor or weight loss professional before adjusting your daily calorie intake to achieve your target weight)</div>
     </div>
 
     <!-- Footer -->

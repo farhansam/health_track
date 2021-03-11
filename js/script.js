@@ -73,8 +73,8 @@ $(document).ready(function () {
   });
 
   //Counter Group JS
-  //$("#counterTable").hide();
-  //$("#counterCalculation").hide();
+  $("#counterTable").hide();
+  $("#counterCalculation").hide();
 
   totalCal = 0;
   sumCal = 0;
