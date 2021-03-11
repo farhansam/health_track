@@ -47,9 +47,23 @@ The target audience for the website are health-conscious individuals who are int
 7. I want to know the recipe for these dishes
 
 # 6. Development
-1. UI screenshots of website
-2. UX js section
-3. Input and output did not fit user stories
+Wireframe for respective webpages:
+1. Main landing page
+   ![](images/wireframe_main_page.png)
+2. BMI & Calorie Intake Calculator
+   ![](images/wireframe_bmi_calculator.png)
+3. Calorie Counter
+   ![](images/wireframe_calorie_counter.png)
+4. Meal Generator
+   ![](images/wireframe_meal_generator.png)
+
+
+
+
+
+5. UI screenshots of website
+6. UX js section
+7. Input and output did not fit user stories
 
 # 7. Implementation
 
