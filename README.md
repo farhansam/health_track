@@ -22,3 +22,20 @@ Health Track is an interactive website targeted towards users who are health-con
 * To complete Milestone Project 2 - Interactive Front-End Development.
 * To build an interactive website that is able to receive user input and process the data to generate an output that is useful for the user.
 * To assist health-conscious users who need to monitor their calorie intake.
+
+# 3. Demo
+
+# 4. Adopted Technology
+
+# 5. User Stories
+
+# 6. Development
+
+# 7. Implementation
+
+# 8. Testing
+1. test navbar links
+
+# 9. Deployment
+
+# 10. Acknowledgement
