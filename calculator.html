@@ -70,6 +70,105 @@
             </div>
           </div>
         </div>
+        <!--Calculator-->
+        <div class="col-md-6 col-margins">
+          <div class="container container-custom" id="calculatorGroup">
+            <form id="formCalculator">
+              <div class="row mb-3">
+                <label for="inputHeight" class="col-sm-3 col-form-label"
+                  >Height</label
+                >
+                <div class="col-sm-6">
+                  <input
+                    type="number"
+                    placeholder="in centimeters"
+                    class="form-control"
+                    id="inputHeight"
+                  />
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputWeight" class="col-sm-3 col-form-label"
+                  >Weight</label
+                >
+                <div class="col-sm-6">
+                  <input
+                    type="number"
+                    placeholder="in kilograms"
+                    class="form-control"
+                    id="inputWeight"
+                  />
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputAge" class="col-sm-3 col-form-label"
+                  >Age</label
+                >
+                <div class="col-sm-6">
+                  <input
+                    type="number"
+                    placeholder="in years"
+                    class="form-control"
+                    id="inputAge"
+                  />
+                </div>
+              </div>
+              <fieldset class="form-group">
+                <div class="row">
+                  <div class="col-form-label col-sm-3 pt-0">Gender</div>
+                  <div class="col-sm-8">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input inputGender"
+                        type="radio"
+                        name="gender"
+                        id="male"
+                        value="male"
+                        checked
+                      />
+                      <label class="form-check-label" for="male"> Male </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input inputGender"
+                        type="radio"
+                        name="gender"
+                        id="female"
+                        value="female"
+                      />
+                      <label class="form-check-label" for="female">
+                       Female
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+              <div class="row mb-3">
+                <label for="inputLifestyle" class="col-sm-3 col-form-label"
+                  >Lifestyle</label
+                >
+                <div class="col-sm-6
+                ">
+                  <select
+                    class="custom-select"
+                    id="inputLifestyle"
+                    aria-label="Default select example"
+                  >
+                    <option value="sedentary">Sedentary</option>
+                    <option value="moderately-active">Moderately Active</option>
+                    <option value="active">Active</option>
+                  </select>
+                </div>
+              </div>
+              <div class="filler"></div>
+              <button class="btn btn-primary" id="btnCalculate">
+                Calculate
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer>
