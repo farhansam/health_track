@@ -30,11 +30,14 @@ Health Track is an interactive website targeted towards users who are health-con
 # 5. User Stories
 
 # 6. Development
+1. UI screenshots of website
+2. UX js section
 
 # 7. Implementation
 
 # 8. Testing
 1. test navbar links
+2. test main group links
 
 # 9. Deployment
 
