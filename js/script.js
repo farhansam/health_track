@@ -146,6 +146,75 @@ $(document).ready(function () {
       });
   });
 
+  //Generator Group JS
+
+  $("#generatorTable").hide();
+
+  $("#btnGenerate").click(function(e) {
+    e.preventDefault();
+
+    inputTarget = $("#inputTarget").val();
+
+    if (inputTarget == "" || inputTarget.match(numbers)) {
+      alert("One or more of the input fields are empty or undefined. Please ensure all fields are filled.");
+    }
+
+    urlGenerator = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/mealplans/generate?targetCalories=" + inputTarget + "&timeFrame=day";
+
+    fetch(urlGenerator, {
+	    "method": "GET",
+	    "headers": {
+		    "x-rapidapi-key": "6803216c5dmsh0c91485a08c444ap1b9884jsn19a6a7c34928",
+		    "x-rapidapi-host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com"
+	    }
+        })
+        .then(function (res) {
+            return res.json();
+        })
+        .then(function (data){
+            breakfast = data.meals[0].title;
+            breakfastURL = data.meals[0].sourceUrl;
+            breakfastID = data.meals[0].id;
+            breakfastImg = data.meals[0].imageType;
+            lunch = data.meals[1].title;
+            lunchURL = data.meals[1].sourceUrl;
+            lunchID = data.meals[1].id;
+            lunchImg = data.meals[1].imageType;
+            dinner = data.meals[2].title;
+            dinnerURL = data.meals[2].sourceUrl;
+            dinnerID = data.meals[2].id;
+            dinnerImg = data.meals[2].imageType;
+
+            $("#myMeals").html(
+                `<tr>
+                    <th scope="row">Breakfast</th>
+                    <td><img src="https://spoonacular.com/recipeImages/${breakfastID}-240x150.${breakfastImg}"></td>
+                    <td>${breakfast}</td>
+                    <td><a href="${breakfastURL}" target="_blank">${breakfastURL}</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">Lunch</th>
+                    <td><img src="https://spoonacular.com/recipeImages/${lunchID}-240x150.${lunchImg}"></td>
+                    <td>${lunch}</td>
+                    <td><a href="${lunchURL}" target="_blank">${lunchURL}</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">Dinner</th>
+                    <td><img src="https://spoonacular.com/recipeImages/${dinnerID}-240x150.${dinnerImg}"></td>
+                    <td>${dinner}</td>
+                    <td><a href="${dinnerURL}" target="_blank">${dinnerURL}</a></td>
+                </tr>`
+            );
+
+        })
+        .catch(err => {
+	        console.error(err);
+        });
+
+        $("#generatorTable").show();
+
+    });
+
   //End test
   console.log("All OK");
 });
