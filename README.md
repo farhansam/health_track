@@ -57,15 +57,20 @@ Wireframe for respective webpages:
 4. Meal Generator
    ![](images/wireframe_meal_generator.png)
 
-
-
-
-
-5. UI screenshots of website
-6. UX js section
-7. Input and output did not fit user stories
+5. UX js section
+6. Input and output did not fit user stories
 
 # 7. Implementation
+Screenshot of actual webpages:
+1. Main landing page
+   ![](images/actual_main_page.png)
+2. BMI & Calorie Intake Calculator
+   ![](images/actual_bmi_calculator.png)
+3. Calorie Counter
+   ![](images/actual_calorie_counter.png)
+4. Meal Generator
+   ![](images/actual_meal_generator.png)
+
 
 # 8. Testing
 1. test navbar links
