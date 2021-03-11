@@ -70,6 +70,85 @@
             </div>
           </div>
         </div>
+        <!--Counter-->
+        <div class="col-md-6 col-margins">
+          <h2>What did you consume today?</h2>
+          <div class="filler-small"></div>
+          <form>
+            <div class="row mb-3">
+              <label for="inputFood" class="col-sm-4 col-form-label"
+                >Food/Drink</label
+              >
+              <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputFood" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputServing" class="col-sm-4 col-form-label"
+                >Serving Size (g)</label
+              >
+              <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputServing" />
+              </div>
+            </div>
+            <fieldset class="form-group">
+              <div class="row">
+                <div class="col-form-label col-sm-4 pt-0">Meal</div>
+                <div class="col-sm-6">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input mealInput"
+                      type="radio"
+                      name="mealType"
+                      id="breakfast"
+                      value="Breakfast"
+                      checked
+                    />
+                    <label class="form-check-label" for="breakfast">
+                      Breakfast
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input mealInput"
+                      type="radio"
+                      name="mealType"
+                      id="lunch"
+                      value="Lunch"
+                    />
+                    <label class="form-check-label" for="lunch"> Lunch </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input mealInput"
+                      type="radio"
+                      name="mealType"
+                      id="dinner"
+                      value="Dinner"
+                    />
+                    <label class="form-check-label" for="dinner">
+                      Dinner
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input mealInput"
+                      type="radio"
+                      name="mealType"
+                      id="snack"
+                      value="Snack"
+                    />
+                    <label class="form-check-label" for="snack"> Snack </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+            <div class="filler"></div>
+            <button class="btn btn-primary" id="btnAdd">Add</button>
+          </form>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer>
