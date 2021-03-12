@@ -83,21 +83,22 @@ Screenshot of actual webpages:
 
 ## Functionality Testing
 1. Test links
+   
 | Test | Result  | Error Fix  |
 |---|---|---|
 | Test navbar links among all pages  | All links work  | NA  |
 | Test links on cards on main page  | All links work  | NA  |
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+|   Test   |     Result    |  Error Fix |
+|:--------:|:-------------:|:----------:|
+| Test navbar links among all pages |  All links work | NA |
+| Test links on cards in main page |    All links work   | NA |
 
-2. Test api
+
+1. Test api
    ![](images/postman_check.png)
-3. Test dynamic interactivity (tabulation of api endpoints)
-4. Bug testing
+2. Test dynamic interactivity (tabulation of api endpoints)
+3. Bug testing
 All HTML, CSS and Javascript files were passed through W3C Nu HTML, Jigsaw CSS and JSHint validators respectively. Files were uploaded to the validators and all errors were fixed. APIs were also tested on postman before being deployed.
 
 ## Usability Testing
