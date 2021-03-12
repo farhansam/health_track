@@ -38,7 +38,7 @@ View the end product: [Health Track](https://farhansam.github.io/health_track/)
 # 5. User Stories
 The target audience for the website are health-conscious individuals who are interested to monitor their current state of general health and their calorie intake. Some of the user stories are:
 
-1. I want to know my BMI to gauge whether I am in the healthy range or not
+1. I want to know my BMI to gauge whether I am in the healthy range
 2. I want to know my recommended calorie intake in order to gain/maintain/lose weight
 3. I want to know how many calories I have consumed today
 4. I want to know if I exceeded my recommended calorie intake for the day
@@ -48,12 +48,16 @@ The target audience for the website are health-conscious individuals who are int
 
 # 6. Development
 Wireframe for respective webpages:
+
 1. Main landing page
    ![](images/wireframe_main_page.png)
+
 2. BMI & Calorie Intake Calculator
    ![](images/wireframe_bmi_calculator.png)
+
 3. Calorie Counter
    ![](images/wireframe_calorie_counter.png)
+
 4. Meal Generator
    ![](images/wireframe_meal_generator.png)
 
@@ -61,32 +65,42 @@ Wireframe for respective webpages:
 
 # 7. Implementation
 Screenshot of actual webpages:
+
 1. Main landing page
    ![](images/actual_main_page.png)
+
 2. BMI & Calorie Intake Calculator
    ![](images/actual_bmi_calculator.png)
+
 3. Calorie Counter
    ![](images/actual_calorie_counter.png)
+
 4. Meal Generator
    ![](images/actual_meal_generator.png)
 
 
 # 8. Testing
-1. test navbar links
-2. test main group links
-3. test bmi/bmr formula
-4. test input validation
-5. test api
-6. test dynamic interactivity (tabulation of api endpoints)
-7. test responsiveness
-8. Bug testing
+
+## Functionality Testing
+1. Test links
+| Test | Result  | Error Fix  |
+|---|---|---|
+| Test navbar links among all pages  | All links work  | NA  |
+| Test links on cards on main page  | All links work  | NA  |
+
+2. Test api
+   ![](images/postman_check.png)
+3. Test dynamic interactivity (tabulation of api endpoints)
+4. Bug testing
 All HTML, CSS and Javascript files were passed through W3C Nu HTML, Jigsaw CSS and JSHint validators respectively. Files were uploaded to the validators and all errors were fixed. APIs were also tested on postman before being deployed.
 
-![](images/html_check1.png)
-![](images/html_check2.png)
-![](images/css_check.png)
-![](images/js_check.png)
-![](images/postman_check.png)
+## Usability Testing
+1. Test formula
+2. Test JS & html
+3. Test input validation
+   
+## Responsiveness Testing
+1. Test responsiveness
 
 # 9. Deployment
 
