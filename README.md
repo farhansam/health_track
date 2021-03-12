@@ -61,22 +61,52 @@ Wireframe for respective webpages:
 4. Meal Generator
    ![](images/wireframe_meal_generator.png)
 
-5. UX js section
+Wireframe for Website Structure
+   ![](images/web_structure.png)
+
 
 # 7. Implementation
 Screenshot of actual webpages:
 
 1. Main landing page
+   <br>
+   The main page serves to be the central page that connects to all other pages.
    ![](images/actual_main_page.png)
 
 2. BMI & Calorie Intake Calculator
+   <br>
+   This page serves to answer to following user stories:
+   ```
+    1. I want to know my BMI to gauge whether I am in the healthy range
+    2. I want to know my recommended calorie intake in order to gain/maintain/lose weight
+    ```
    ![](images/actual_bmi_calculator.png)
+   <br>
+   The BMI results and recommended calorie intake will only pop up when user click on the "calculate" button. Also, a disclaimer to refer to a professional is included, as a safety precaution.
 
 3. Calorie Counter
+    <br>
+   This page serves to answer to following user stories:
+   ```
+    3. I want to know how many calories I have consumed today
+    4. I want to know if I exceeded my recommended calorie intake for the day
+    ```
    ![](images/actual_calorie_counter.png)
+   <br>
+   The calorie target, consumed and remaining section will only appear when the "set" button is clicked. The consumption of the user will be appended into a table when user clicks the "add to list" button. This will enable them to keep track of what they have consumed. There is a "reset all" button to allow user to reset all inputs in case they entered the wrong information.
+
 
 4. Meal Generator
+   <br>
+   This page serves to answer to following user stories:
+   ```
+    5. I want a recommendation of dishes that I can eat based on my recommended calorie intake
+    6. I want to know how the dishes look like
+    7. I want to know the recipe for these dishes
+    ```
    ![](images/actual_meal_generator.png)
+   <br>
+   When user clicks on "generate" button, the 3 meals will appear in a table form, and there will be photos as well as links to the recipe included for user to find out more details.
 
 
 # 8. Testing
@@ -98,19 +128,23 @@ Screenshot of actual webpages:
 
 ## Bug Testing
 1. HTML 
+<br>
    All HTML pages passed through W3C Nu HTML. Errors were rectified.
     ![](images/html_check1.png)
     ![](images/html_check2.png)
 
 2. CSS
+<br>
    CSS file passed through Jigsaw CSS. Errors were rectified.
    ![](images/css_check.png)
 
 3. Javascript
+<br>
    Javascript file was passed through JSHint Validator. No major issues found.
    ![](images/js_check.png)
 
 4. API
+<br>
    APIs were tested on Postman for the workability of the endpoint
    ![](images/postman_check.png)
 
