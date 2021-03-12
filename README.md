@@ -127,24 +127,20 @@ Screenshot of actual webpages:
 
 
 ## Bug Testing
-1. HTML 
-<br>
-   All HTML pages passed through W3C Nu HTML. Errors were rectified.
+### HTML
+All HTML pages passed through W3C Nu HTML. Errors were rectified.
     ![](images/html_check1.png)
     ![](images/html_check2.png)
 
-2. CSS
-<br>
+### CSS
    CSS file passed through Jigsaw CSS. Errors were rectified.
    ![](images/css_check.png)
 
-3. Javascript
-<br>
+### Javascript
    Javascript file was passed through JSHint Validator. No major issues found.
    ![](images/js_check.png)
 
-4. API
-<br>
+### API
    APIs were tested on Postman for the workability of the endpoint
    ![](images/postman_check.png)
 
