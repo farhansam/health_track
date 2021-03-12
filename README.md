@@ -81,32 +81,24 @@ Screenshot of actual webpages:
 
 # 8. Testing
 
-## Functionality Testing
-1. Test links
+## Test Table
 
 | Test Type | Test | Result | Error Fix |
-|:---------:|:----:|:------:|:---------:|
+|:---------:|:-------------:|:-------------:|:-------------:|
 | Functionality | Test navbar links among all pages | All links work | NA |
 | Functionality | Test links on cards in main page | All links work | NA |
 | Functionality | Test API endpoints | Endpoints work as expected | NA |
 | Usability | Test API endpoints that may not exist in API database, ie; local Singaporean dishes | Endpoint does not exist. No data retrieved. | Display alert message in UI. If endpoint does not exist, alert message will pop up, informing user that the dish is not found in the "library" |
+| Functionality | Test appended table in calorie counter page | Table row appended from the top instead of the bottom | Targeted wrong DOM tree in JS. Rectified by specifying ID |
 | Usability | Test BMI & recommended calorie intake formula. Counter checked with physical calculator. | Returns different number from physical calculator | Syntax error in code. Rectified by correcting the syntax |
+| Usability | Test user input validation by entering unwanted characters and numbers in input field | Input field accepted unwanted characters and numbers | Accepted characters for input field was not defined in JS file. Rectified by defining the wanted/unwanted characters for each inout field |
+| Responsiveness | Test responsiveness of navbar collapse using Google Chrome inspect element | Navbar able to collapse in small screen and expand when the collapse button is clicked | NA |
+| Responsiveness | Test responsiveness of images and columns using Google Chrome inspect element | Images are resized and columns are restacked | NA |
 
-2. Test API endpoints
-   API endpoints were tested using Postman. Endpoints work with no issue
-   ![](images/postman_check.png)
 
-3. Test dynamic interactivity (tabulation of api endpoints)
-4. Bug testing
+## Bug Testing
 All HTML, CSS and Javascript files were passed through W3C Nu HTML, Jigsaw CSS and JSHint validators respectively. Files were uploaded to the validators and all errors were fixed. APIs were also tested on postman before being deployed.
 
-## Usability Testing
-1. Test formula
-2. Test JS & html
-3. Test input validation
-   
-## Responsiveness Testing
-1. Test responsiveness
 
 # 9. Deployment
 
