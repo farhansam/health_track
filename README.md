@@ -83,22 +83,21 @@ Screenshot of actual webpages:
 
 ## Functionality Testing
 1. Test links
-   
-| Test | Result  | Error Fix  |
-|---|---|---|
-| Test navbar links among all pages  | All links work  | NA  |
-| Test links on cards on main page  | All links work  | NA  |
 
-|   Test   |     Result    |  Error Fix |
-|:--------:|:-------------:|:----------:|
-| Test navbar links among all pages |  All links work | NA |
-| Test links on cards in main page |    All links work   | NA |
+| Test Type | Test | Result | Error Fix |
+|:---------:|:----:|:------:|:---------:|
+| Functionality | Test navbar links among all pages | All links work | NA |
+| Functionality | Test links on cards in main page | All links work | NA |
+| Functionality | Test API endpoints | Endpoints work as expected | NA |
+| Usability | Test API endpoints that may not exist in API database, ie; local Singaporean dishes | Endpoint does not exist. No data retrieved. | Display alert message in UI. If endpoint does not exist, alert message will pop up, informing user that the dish is not found in the "library" |
+| Usability | Test BMI & recommended calorie intake formula. Counter checked with physical calculator. | Returns different number from physical calculator | Syntax error in code. Rectified by correcting the syntax |
 
-
-1. Test api
+2. Test API endpoints
+   API endpoints were tested using Postman. Endpoints work with no issue
    ![](images/postman_check.png)
-2. Test dynamic interactivity (tabulation of api endpoints)
-3. Bug testing
+
+3. Test dynamic interactivity (tabulation of api endpoints)
+4. Bug testing
 All HTML, CSS and Javascript files were passed through W3C Nu HTML, Jigsaw CSS and JSHint validators respectively. Files were uploaded to the validators and all errors were fixed. APIs were also tested on postman before being deployed.
 
 ## Usability Testing
